@@ -91,7 +91,9 @@ template {
 	display: none;
 }
 
-a {
+a
+{
+	margin:1.5%;
 	background-color: transparent;
 }
 
@@ -101,7 +103,7 @@ a:hover {
 }
 
 abbr[title] {
-	border-bottom: 1px dotted;
+	border-bottom: 1% dotted;
 }
 
 b,
@@ -272,6 +274,7 @@ th {
 .site-description{
 	text-align:center;
 }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -282,7 +285,7 @@ select,
 textarea {
 	color: #404040;
 	font-size: 16px;
-	font-size: 1rem;
+	font-size: 1em;
 	line-height: 1.5;
 }
 
@@ -423,7 +426,20 @@ table {
 	margin: 0 0 1.5em;
 	width: 100%;
 }
+.post{
+	background-color:#FFFFC4;
+	border-radius: 15%;
+}
+.entry-content{
+	padding:0 2% 0 2%;
+	border-radius: 22%;
+}
+.entry-header,
+.entry-footer{
+	text-align:center;
+}
 
+}
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -750,6 +766,7 @@ a:active {
 
 .hentry {
 	margin: 0 0 1.5em;
+
 }
 
 .byline,
